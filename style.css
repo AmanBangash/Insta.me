@@ -1,0 +1,266 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#instagram{
+ height: 7.9in; 
+  width: 100%;
+  display: flex;
+  justify-content: center ;
+  background-color:#ffffff;
+  border-top: 1px solid silver;
+  
+  
+}
+
+/*languages*/
+#language{
+  margin-top: 10px;
+  text-align: center ;
+  font-family:Arial (sans-serif);
+  font-size: 10px;
+  font-weight: 18;
+  color:#8e8e8e;
+}
+
+/*logo*/
+#logo{
+  height: 90px;
+  width: 176px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 160px;
+}
+
+/*GENERAL TEXT*/
+#g-text{
+  margin-top: 260px;
+  text-align: center;
+  font-family:Arial (sans-serif);
+  font-size: 13px;
+  color:#8e8e8e;
+  position: absolute ;
+}
+/*button */
+#get-app{
+  height:45px;
+  width: 80%;
+  margin-top: 290px;
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+  position: absolute ;
+  background-color: #0195F7;
+  border-radius: 11px;
+}
+
+#get-app a{
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 800;
+  color: #ffffff ;
+}
+
+/*login-signup*/
+#login-signup{
+  margin-top: 340px;
+  
+  position: absolute ;
+  font-size: 15px;
+  color:#8e8e8e;
+    
+}
+
+#login-signup a{
+  padding: 0px 2px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    color: #0195F7;
+}
+
+#mark{
+  margin-top: 710px;
+  text-align: center;
+  position: absolute ;
+  font-family:Arial (sans-serif);
+  font-size: 11px;
+  font-weight: 19;
+  color:#8e8e8e;
+}
+#logo2{
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 688px;
+}
+
+
+/*footer*/
+#footer{
+  height: 1.in;
+  width: 100%;
+  background-color:whitesmoke;
+}
+#helpful-links-1{
+  width: 90%;
+  margin: auto ;
+  display: flex ;
+  align-items: center ;
+  justify-content: space-around;
+}
+#helpful-links-1 .link-text{
+  margin-top: 25px;
+  position: relative;
+  font-family:Arial (sans-serif);
+  font-size: 11px;
+  font-weight: 19;
+  color:#8e8e8e;
+}
+#helpful-links-2 {
+  width: 70%;
+  margin:-11px auto;
+  position:relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+/*  background-color: #0195F7 ;*/
+  
+}
+#helpful-links-2 .link-text2 {
+  margin-top: 23px;
+  position: relative;
+  font-family: Arial (sans-serif);
+  font-size: 11px;
+  font-weight: 19;
+  color: #8e8e8e;
+}
+#helpful-links-3 {
+  width: 70%;
+  margin: 15px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#helpful-links-3 .link-text3 {
+margin: auto;
+  position: relative;
+  font-family: Arial (sans-serif);
+  text-align: center;
+  font-size: 11px;
+  font-weight: 19;
+  color: #8e8e8e;
+}
+
+
+
+
+/*log in page*/
+#login-logo{
+  height: 90px;
+  width: 176px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 70px;
+  
+}
+#fb-btn{
+  margin-top:197px;
+  padding:9px 39px;
+  border-radius:07px;
+  display: inline-block;
+  position: absolute;
+  text-decoration:none;
+  background-color:#0195F7;
+  font-size: 13px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 800;
+  color: #ffffff ;
+}
+
+
+#optional-or{
+  width : 40%;
+  margin-top :240px;
+  display: flex;
+  align-items:center ;
+  justify-content :space-around;
+  position :absolute ;
+}
+#optional-or span{
+  font-size: 11px;
+  color:#8e8e8e;
+}
+
+
+#input{
+  width :60%;
+  margin-top : 267px;
+  display: flex;
+  position :absolute ;
+  align-items:center;
+  justify-content:center ;
+}
+#emailphone{
+  height : 25px;
+  width:253px;
+  padding:7px 6px;
+  background-color :whitesmoke ;
+  border: 0.5px solid gray;
+  position: relative ;
+  font-size: 13px;
+  border-radius:3px;
+}
+#password{
+  margin-top:5px;
+  height : 25px;
+  width:253px;
+  padding:7px 6px;
+  background-color :whitesmoke;
+  border: 0.4px solid gray;
+  position: relative;
+  font-size: 13px;
+  border-radius:3px;
+}
+#FYP{
+  margin-top : 361px;
+  margin-left: 44px;
+  position: absolute;
+  font-size: 13px;
+  font-weight :510;
+  color:#0195F7;
+}
+#log-btn{
+  margin-top:397px;
+  padding:7px 110px;
+  border-radius:7px;
+  display: inline-block;
+  position: absolute;
+  text-decoration:none;
+  background-color:#0195F7;
+  font-size: 13px;
+  font-family: Arial,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 600;
+  color: #ffffff ;
+  opacity: 0.8;
+}
+#S-link{
+  position: absolute ;
+  margin-top:459px;
+  font-size: 13px ;
+  color:#8e8e8e ;
+}
+#S-link a{
+  color:#0195F7;
+  text-decoration:none;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+
+
+/*sign up Page*/
